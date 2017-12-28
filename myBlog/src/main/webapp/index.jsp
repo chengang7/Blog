@@ -95,16 +95,40 @@
 				<!-- 动态轮播 -->
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<a href="http://www.muzhuangnet.com/show/269.html" target="_blank"
-							title="木庄网络博客源码"> <img
-							src="http://www.muzhuangnet.com/upload/201610/18/201610181557196870.jpg"
-							alt="木庄网络博客源码" class="img-responsive"></a>
+						<a href="#" target="_blank"
+							title="图片轮播01"> <img
+							src="${pageContext.request.contextPath}/static/images/1.jpg"
+							alt="图片轮播01" class="img-responsive"></a>
 					</div>
 					<div class="item">
-						<a href="http://web.muzhuangnet.com/" target="_blank"
-							title="专业网站建设"> <img
-							src="http://www.muzhuangnet.com/upload/201610/24/201610241227558789.jpg"
-							alt="专业网站建设" class="img-responsive"></a>
+						<a href="#" target="_blank"
+							title="图片轮播02"> <img
+							src="${pageContext.request.contextPath}/static/images/2.jpg"
+							alt="图片轮播02" class="img-responsive"></a>
+					</div>
+					<div class="item">
+						<a href="#" target="_blank"
+							title="图片轮播03"> <img
+							src="${pageContext.request.contextPath}/static/images/3.jpg"
+							alt="图片轮播03" class="img-responsive"></a>
+					</div>
+					<div class="item">
+						<a href="#" target="_blank"
+							title="图片轮播04"> <img
+							src="${pageContext.request.contextPath}/static/images/4.jpg"
+							alt="图片轮播04" class="img-responsive"></a>
+					</div>
+					<div class="item">
+						<a href="#" target="_blank"
+							title="图片轮播05"> <img
+							src="${pageContext.request.contextPath}/static/images/5.jpg"
+							alt="图片轮播05" class="img-responsive"></a>
+					</div>
+					<div class="item">
+						<a href="#" target="_blank"
+							title="图片轮播06"> <img
+							src="${pageContext.request.contextPath}/static/images/6.jpg"
+							alt="图片轮播06" class="img-responsive"></a>
 					</div>
 				</div>
 				<a class="left carousel-control" href="#focusslide" role="button"
@@ -237,6 +261,47 @@
 					class="muted"><i class="glyphicon glyphicon-eye-open"></i>88</span></a></li>
 		</ul>
 	</div>
+		<div class="data_list">
+				<div class="data_list_title">
+					<img src="${pageContext.request.contextPath}/static/images/byType_icon.png"/>
+					文章分类
+				</div>
+				<div class="datas">
+					<ul>						
+							<c:forEach items="${blogTypeList }" var="blogType">
+								<li><span><a href="#">${blogType.typeName }（${blogType.blogCount }）</a></span></li>		
+							</c:forEach>					
+					</ul>
+				</div>
+			</div>
+			
+			<div class="data_list">
+				<div class="data_list_title">
+					<img src="${pageContext.request.contextPath}/static/images/byDate_icon.png"/>
+					文章存档
+				</div>
+				<div class="datas">
+					<ul>						
+							<c:forEach items="${blogList }" var="blog">							
+								<li><span><a href="#">${blog.releaseDateStr }（${blog.blogCount }）</a></span></li>						
+							</c:forEach>						
+					</ul>
+				</div>
+			</div>
+			
+			<div class="data_list">
+				<div class="data_list_title">
+					<img src="${pageContext.request.contextPath}/static/images/link_icon.png"/>
+					友情链接
+				</div>
+				<div class="datas">
+					<ul>						
+						<c:forEach items="${linkList }" var="link">
+							<li><span><a href="${link.linkUrl }" target="_blank">${link.linkName }</a></span></li>
+						</c:forEach>											
+					</ul>
+				</div>
+			</div>
 	<!--  广告位置，后期可以改成相册展示 
 	<div class="widget widget_sentence">
 		<a href="#" target="_blank" rel="nofollow"
