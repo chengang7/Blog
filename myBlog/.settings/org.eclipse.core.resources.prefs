@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/java/com/cg/blog/dao/BloggerDao.java=UTF-8
+encoding//src/main/java/com/cg/blog/entity/Blogger.java=UTF-8
+encoding//src/main/java/com/cg/blog/lucene/BlogIndex.java=UTF-8
+encoding//src/main/java/com/cg/blog/service/BloggerService.java=UTF-8
+encoding//src/main/java/com/cg/blog/service/impl/BlogServiceImpl.java=UTF-8
+encoding//src/main/java/com/cg/blog/service/impl/BloggerServiceImpl.java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/test/java=UTF-8
+encoding/<project>=UTF-8
