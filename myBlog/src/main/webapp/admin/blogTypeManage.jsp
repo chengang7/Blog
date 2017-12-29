@@ -10,7 +10,13 @@
 <html lang="en">
 <head>
     <title>博客类别管理</title>
-    <%@include file="./common/head.jspf" %>
+   <%--  <%@include file="./common/head.jspf" %> --%>
+   <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/jquery-easyui-1.4.5/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/jquery-easyui-1.4.5/themes/icon.css">
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/jquery-easyui-1.4.5/jquery.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/jquery-easyui-1.4.5/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/jquery-easyui-1.4.5/locale/easyui-lang-zh_CN.js"></script>
+<script type="text/javascript">
 </head>
 <script type="text/javascript">
 

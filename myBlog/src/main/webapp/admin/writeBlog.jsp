@@ -6,7 +6,12 @@
 <head>
 <title>写博客页面</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<%@include file="./common/head.jspf"%>
+  <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/jquery-easyui-1.4.5/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/jquery-easyui-1.4.5/themes/icon.css">
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/jquery-easyui-1.4.5/jquery.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/jquery-easyui-1.4.5/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/static/jquery-easyui-1.4.5/locale/easyui-lang-zh_CN.js"></script>
+<script type="text/javascript">
 
 <script type="text/javascript" charset="utf-8"
 	src="${blog}/static/ueditor1_4_3_3/ueditor.config.js"></script>

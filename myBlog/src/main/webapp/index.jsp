@@ -157,7 +157,52 @@
 					<a href="#" title="资源分享">资源分享</a>
 				</div>
 			</div>
-			<article class="excerpt excerpt-1" style=""> <a
+			<div class="col-md-9">
+				<div class="data_list">
+					<div class="data_list_title">
+						<img
+							src="${pageContext.request.contextPath}/static/images/list_icon.png" />&nbsp;最新博客
+					</div>
+					<div class="datas">
+						<ul>
+
+							<li style="margin-bottom: 30px"><span class="title">
+									<img alt="文章类型"
+									src="${pageContext.request.contextPath}/static/userImages/yuan.jpg">
+									<a href="#">这是一篇测试博客</a>
+							</span> <span class="summary">摘要:
+									这是用来测试的静态数据，为了多搞一点数据，于是我开始喋喋不休的说一些废话，包括我很帅之类的，虽然我一直强调自己要低调，但不知为何，自己的容颜非得和内心背道而驰....</span>
+								<span class="img"> 
+										
+							</span> <span class="info"> <font color="#999">2016-07-03
+										10:39</font> &nbsp;&nbsp; <font color="#33a5ba"><a href="#">阅读</a><font
+										color="#999">(404)</font>&nbsp;&nbsp;</font> <font color="#33a5ba"><a
+										href="#">评论</a><font color="#999">(8)</font>&nbsp;&nbsp;</font>
+							</span><</li>
+							<hr
+								style="height: 5px; border: none; border-top: 1px dashed gray; padding-bottom: 10px;" />
+
+							<li style="margin-bottom: 30px"><span class="title">
+									<img alt="文章类型"
+									src="${pageContext.request.contextPath}/static/userImages/yuan.jpg">
+									<a href="#">这是一篇测试博客</a>
+							</span> <span class="summary">摘要:
+									这是用来测试的静态数据，为了多搞一点数据，于是我开始喋喋不休的说一些废话，包括我很帅之类的，虽然我一直强调自己要低调，但不知为何，自己的容颜非得和内心背道而驰....</span>
+								<span class="img"> <a href="#"></a> &nbsp;&nbsp;
+
+							</span> <span class="info"> <font color="#999">2016-07-03
+										10:39</font> &nbsp;&nbsp; <font color="#33a5ba"><a href="#">阅读</a><font
+										color="#999">(404)</font>&nbsp;&nbsp;</font> <font color="#33a5ba"><a
+										href="#">评论</a><font color="#999">(8)</font>&nbsp;&nbsp;</font>
+							</span></li>
+							<hr
+								style="height: 5px; border: none; border-top: 1px dashed gray; padding-bottom: 10px;" />
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<!-- <article class="excerpt excerpt-1" style=""> <a
 				class="focus" href="http://www.muzhuangnet.com/show/269.html"
 				title="用DTcms做一个独立博客网站（响应式模板）" target="_blank"><img
 				class="thumb"
@@ -180,7 +225,7 @@
 					target="_blank"><i class="glyphicon glyphicon-comment"></i> 4</a>
 			</p>
 	
-			</article>
+			</article> -->
 			<nav class="pagination" style="display: none;">
 			<ul>
 				<li class="prev-page"></li>
